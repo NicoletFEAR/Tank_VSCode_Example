@@ -26,6 +26,7 @@ public class Robot extends IterativeRobot {
     m_myRobot = new DifferentialDrive(new Spark(0), new Spark(1));
     m_leftStick = new Joystick(0);
     m_rightStick = new Joystick(1);
+    System.out.println("test");
   }
 
   @Override
